@@ -1,4 +1,4 @@
-namespace FactoryMathod {
+namespace FactoryMethod {
     interface Product {
         GetName(): string
     }
