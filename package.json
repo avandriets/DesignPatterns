@@ -1,0 +1,25 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "Design patterns repo code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "singleton": "ts-node ./Creational/Singleton/singleton.ts",
+    "singleton-js": "tsc -t es5 ./Creational/Singleton/singleton.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avandriets/DesignPatterns.git"
+  },
+  "author": "Alex Andriets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avandriets/DesignPatterns/issues"
+  },
+  "homepage": "https://github.com/avandriets/DesignPatterns#readme",
+  "dependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.0.2"
+  }
+}
