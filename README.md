@@ -28,4 +28,3 @@ This project contains code examples of popular design patterns implemented on Ty
 * Iterator
 * State
 * Visitor
-test
