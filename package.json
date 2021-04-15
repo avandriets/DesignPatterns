@@ -8,6 +8,9 @@
     "singleton": "ts-node ./creational/singleton/singleton.ts",
     "factory": "ts-node ./creational/factory/factory.ts",
     "abstract-factory": "ts-node ./creational/abstract-factory/abstract-factory.ts",
+    "bridge": "ts-node ./structural/bridge/bridge.ts",
+    "adapter": "ts-node ./structural/adapter/adapter.ts",
+    "js-tests": "ts-node knowledge-test/inheritance.js",
     "generate-js": "tsc -p ./tsconfig.json"
   },
   "repository": {

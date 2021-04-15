@@ -1,19 +1,29 @@
-function Search(text, word) {
-    var text = text;
-    var word = word;
+function Search(text: string, word: string) {
+
+    this.text = text;
+    this.word = word;
+
     this.searchWordInText = function () {
-        return text;
+        return this.text;
     };
+
     this.getWord = function () {
-        return word;
+        return this.word;
     };
-};
-function SearchAdapter(adaptee) {
+
+}
+
+function SearchAdapter(adapter) {
+
+    this.adapter = adapter;
+
     this.searchWordInText = function () {
-        return 'Эти слова ' + adaptee.getWord()
-            + ' найдены в тексте ' + adaptee.searchWordInText();
+        return `Эти слова ${this.adapter.getWord()} найдены в тексте ${this.adapter.searchWordInText()}`;
     };
-};
-var search = new Search("текст", "слова")
-var searchAdapter = new SearchAdapter(search);
-searchAdapter.searchWordInText();
+
+}
+
+const search = new Search('текст', 'слова');
+const searchAdapter = new SearchAdapter(search);
+
+console.log(searchAdapter.searchWordInText());
