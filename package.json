@@ -10,6 +10,11 @@
     "abstract-factory": "ts-node ./creational/abstract-factory/abstract-factory.ts",
     "bridge": "ts-node ./structural/bridge/bridge.ts",
     "adapter": "ts-node ./structural/adapter/adapter.ts",
+    "solid-s": "ts-node ./SOLID/single-responsibility.ts",
+    "solid-o": "ts-node ./SOLID/open-closed.ts",
+    "solid-l": "ts-node ./SOLID/liskov-substitution.ts",
+    "solid-i": "ts-node ./SOLID/interface-segregation.ts",
+    "solid-d": "ts-node ./SOLID/dependency-inversion.ts",
     "js-tests": "ts-node knowledge-test/inheritance.js",
     "generate-js": "tsc -p ./tsconfig.json"
   },
@@ -26,5 +31,8 @@
   "dependencies": {
     "ts-node": "^9.1.1",
     "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2"
   }
 }
