@@ -8,7 +8,9 @@
 
 ## Single Responsibility
 
-One object one responsibility example in `single-responsibility.ts`
+A class should have one reason for change
+
+Separation of concerns - different classes handling different, independent tasks/problems 
 
 to run example:
 
@@ -18,7 +20,7 @@ $ npm run solid-s
 
 ## Open–closed
 
-Object is opened for extension and closed for modification
+Classes should be open for extension but closed for modification
 
 to run example:
 
@@ -28,6 +30,8 @@ $ npm run solid-o
 
 ## Liskov substitution
 
+You should be able to substitute a base type for a subtype
+
 to run example:
 
 ```bash
@@ -35,6 +39,8 @@ $ npm run solid-l
 ```
 
 ## Interface segregation
+
+Don't put too much into an interface, split into separate interfaces
 
 to run example:
 
@@ -44,6 +50,8 @@ $ npm run solid-i
 
 
 ## Dependency inversion
+
+High-level modules should not depend upon low-level ones, use abstraction. 
 
 to run example:
 
