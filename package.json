@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "singleton": "ts-node ./creational/singleton/singleton.ts",
+    "prototype": "ts-node ./creational/prototype/prototype.ts",
     "build": "ts-node ./creational/builder/builder.ts",
     "factory": "ts-node ./creational/factory/factory.ts",
     "abstract-factory": "ts-node ./creational/abstract-factory/abstract-factory.ts",
